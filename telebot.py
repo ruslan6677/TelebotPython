@@ -2,7 +2,7 @@ from html.parser import HTMLParser
 import telegram.ext
 import telegram
 
-TOKEN = "5741026234:AAF3yWufod-JqfuXkeH1cGvpvIfhKU7LANQ"
+TOKEN = "5711177975:AAFrOStNMuDZMCY5zTk3BnnIn9zedvW1zm4"
 
 def start(update,source):
     update.message.reply_text("<b>Merhaba, Hoşgeldiniz.\nWeb Sitesi:/site\nYoutube:/youtube</b>",parse_mode = telegram.ParseMode.HTML)
